@@ -41,12 +41,12 @@ jobs:
       - run: ls dist
       # ให้ deploy เอง เช่น ssh
       
-      - uses: actions/checkout@v4
+ #     - uses: actions/checkout@v4
       
-      - name: publish vue to github pages
-        uses: SerhiiKa/VuePagesAction@1.0.4
-        with:
-            username: ${{ github.actor }} #codingthailand
-            reponame: ${{ github.event.repository.name }}  #vue-github-app
-            token: ${{ secrets.GITHUB_TOKEN }}
+ #     - name: publish vue to github pages
+ #       uses: SerhiiKa/VuePagesAction@1.0.4
+ #       with:
+ #           username: ${{ github.actor }} #codingthailand
+ #           reponame: ${{ github.event.repository.name }}  #vue-github-app
+ #          token: ${{ secrets.GITHUB_TOKEN }}
         
