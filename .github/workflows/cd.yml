@@ -3,7 +3,7 @@ name: 'build and deploy production'
 on:
   push:
     tags:
-      - 'v3000'
+      - 'v1000'
 
 jobs:
   build-production-job:
