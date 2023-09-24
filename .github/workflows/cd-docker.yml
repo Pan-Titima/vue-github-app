@@ -16,7 +16,6 @@ jobs:
         with:
           image: ${{github.event.repository.name}}
           registry: ghcr.io
-          dockerfile: Dockerfile.ci
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
         
