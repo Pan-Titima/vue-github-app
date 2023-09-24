@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # github-vue-live
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -50,3 +51,6 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+=======
+# vue-github-app
+>>>>>>> f29c1c5ddaa13b04effac60bee899f704597b3f5
